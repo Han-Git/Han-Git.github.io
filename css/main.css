@@ -1,21 +1,16 @@
 body{
 	
 }
-
 .parallax { 
-    /* The image used */
-    background-image: url("../image/background1.png");
-
     /* Set a specific height */
     height: 700px; 
-
+    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .nav-name{
 	font-family: 'Anton', sans-serif;
@@ -54,7 +49,7 @@ body{
 
 .container-title{
 	height: 40px;
-	
+
 }
 
 .footer-bottom{
@@ -72,4 +67,35 @@ body{
 
 #name{
 	font-family: 'Comfortaa', serif;
+}
+
+@media only screen and (min-width: 1001px){
+	.header-content-image{
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.parallax { 
+	    height: 400px; 
+	    background-attachment: scroll;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	}
+
+	.header-content{
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+
+	.header-content-text{
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+
+	.section-content{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }

@@ -1,0 +1,75 @@
+body{
+	
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../image/IMG_7441.jpg");
+
+    /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav-name{
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	color: red;
+}
+
+.navbar-default .navbar-text{
+	color: black;
+}
+
+.section-title{
+	color: black;
+	font-family: 'Ubuntu', serif;
+}
+
+.section-title-line{
+	color: gray;
+	border-top: 2px solid gray;
+}
+
+.section-content{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.header-content{
+	padding-top: 60px;
+	padding-left: 230px;
+}
+
+.header-content-text{
+	padding-top: 50px;
+	padding-left: 200px;
+}
+
+.container-title{
+	height: 40px;
+	
+}
+
+.footer-bottom{
+	background-color: black;
+	height: 100px;
+
+}
+
+.footer-bottom-text{
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', serif;
+}
+
+#name{
+	font-family: 'Comfortaa', serif;
+}
